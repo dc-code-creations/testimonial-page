@@ -146,9 +146,21 @@ li {
   padding: 1rem 0;
 }
 
+/* TODO: need the star images to be a little smaller than they currently are; maybe adding padding to it's container will help; or maybe adding padding to this image; not sure if this is the best way to do it */
 .star-rating {
   display: flex;
+  /* flex: 1 1 50%; */
+  /* padding: 10px 0; */
+  padding: 10px 0;
 }
+
+img.company-logo {
+  padding: 10px 0;
+}
+
+/* img.star {
+  max-width: 100%;
+} */
 
 /* .review-info {
 } */
