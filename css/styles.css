@@ -169,9 +169,9 @@ img.company-logo {
   /* sora-body */
   font-family: "Sora", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
-  font-size: 1.25rem;
+  font-size: 1rem;
 
   padding: .5rem 0;
 }
