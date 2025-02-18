@@ -51,6 +51,8 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
 
+- I tried to make the star rating section smaller by adding some padding to the top and bottom of the section, however when I did this, it would warp the company logo, too. Ultimately, I decided to add an equal amount ofpadding to the top and bottom of the company logo as well, and that seems to have resolved the issue. I am not wure whether this is the best way to do it or not, but it works well enough for what I need it to do.
+
 ### Useful resources
 
 <!--
