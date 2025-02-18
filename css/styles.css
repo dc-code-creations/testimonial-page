@@ -78,7 +78,7 @@ body {
   background-color: #F5C044;
   padding: .5rem .65rem;
   border-radius: 100%;
-  margin: .5rem;
+  margin: .5rem 0;
   /* zoom: 1.5; */
 }
 
