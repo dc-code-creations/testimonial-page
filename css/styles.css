@@ -72,7 +72,6 @@ body {
   text-align: left;
 
   padding-top: 1rem;
-  color: #52525A;
 }
 
 .star-emoji {
@@ -92,17 +91,20 @@ body {
   font-size: 2.25rem;
 
   padding: .5rem 0;
+  color: #18181B;
 }
 
 .reviewers-text{
-  /* body-2 */
+  /* body */
   font-family: "Sora", serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
 
   padding: .5rem 0;
+  color: #52525A;
 }
 
 ul.reviewers-checklist {
@@ -146,7 +148,7 @@ li {
   padding: 1rem 0;
 }
 
-/* TODO: need the star images to be a little smaller than they currently are; maybe adding padding to it's container will help; or maybe adding padding to this image; not sure if this is the best way to do it */
+/* TODO: need the star images to be a little smaller than they currently are; maybe adding padding to it's container will help; or maybe adding padding to this image; not sure if this is the best way to do it; I do think the size of the stars is ok for now */
 .star-rating {
   display: flex;
   /* flex: 1 1 50%; */
@@ -166,7 +168,7 @@ img.company-logo {
 } */
 
 .reviewer-name {
-  /* sora-body */
+  /* sora-heading (with different font size) */
   font-family: "Sora", serif;
   font-optical-sizing: auto;
   font-weight: 600;
