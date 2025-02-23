@@ -191,3 +191,33 @@ img.company-logo {
 }
 
 /* TODO: style the page for the other screen sizes */
+
+/* default: small screen size, less than 768px */
+
+/* medium: less than 992px */
+@media (min-width: 768px) {
+  body {
+    background-color: goldenrod;
+  }
+}
+
+/* large: less than 1200px */
+@media (min-width: 992px) {
+  body {
+    background-color: teal;
+  }
+}
+
+/* choosing something betwee the medium breakpoint (768-991px) and the large breakpoint (992-1199px) since I am not sure that I will need separate breakpoints unless there is something weird spacing-wise; 880px is about halfway between the two */
+/* @media (min-width: 880px) {
+  body {
+    background-color: maroon;
+  }
+} */
+
+/* lx: greater than or equal to 1200px */
+@media (min-width: 1200px) {
+  body {
+    background-color: forestgreen;
+  }
+}
