@@ -267,16 +267,23 @@ img.company-logo {
 
   main {
     display: flex;
+    padding: 5rem 1rem;
+  }
+
+  .reviewers-info-section {
+    flex: 1;
+    padding: 1rem 2.5rem;
   }
 
   .review-cards-section {
-    padding: 1rem 2.5rem;
+    flex: 1;
+    padding: 1rem 2rem;
   }
 
   .review-card {
     background-color: #FFFFFF;
     margin: 1rem 0 2.5rem;
-    /* padding: 1rem; */
+    padding: 1rem 2.5rem;
     max-width: 350px;
   }
 }
