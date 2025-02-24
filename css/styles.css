@@ -151,6 +151,11 @@ li {
   padding: 10px 0;
 }
 
+.star {
+  width: 29px;
+  height: 29px;
+}
+
 img.company-logo {
   padding: 10px 0;
 }
