@@ -207,19 +207,27 @@ img.company-logo {
     background-color: goldenrod;
   }
 
-  /* .review-cards-section {
-    margin: 0;
-  } */
+  .review-cards-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+  }
 
   .review-card {
     background-color: #FFFFFF;
-    margin: 1rem 0 2.5rem;
-    padding: 1rem;
-    max-width: 50%;
+    margin: 1rem 0 2rem;
+    /* padding: 1rem; */
+    max-width: 350px;
     /* border: solid 1px black; */
     /* border-radius: 20px;
     box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05); */
   }
+
+  .review-card:nth-child(odd) {
+    align-self: flex-end;
+  }
+
+  /* .review-card:nth-child(even) {} */
 }
 
 /* large: less than 1200px */
@@ -237,7 +245,7 @@ img.company-logo {
     background-color: #FFFFFF;
     margin: 1rem 0 2.5rem;
     padding: 1rem;
-    max-width: 40%;
+    max-width: 350px;
     /* border: solid 1px black; */
     /* border-radius: 20px;
     box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05); */
@@ -267,7 +275,7 @@ img.company-logo {
     background-color: #FFFFFF;
     margin: 1rem 0 2.5rem;
     padding: 1rem;
-    max-width: 25%;
+    max-width: 350px;
     /* border: solid 1px black; */
     /* border-radius: 20px;
     box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05); */
